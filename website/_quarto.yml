@@ -1,0 +1,40 @@
+project:
+  type: website
+
+website:
+  title: "School of Data"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: O kursu
+      - sessions.qmd
+  sidebar:
+    - title: "Sessions"
+      style: "docked"
+      #contents: auto 
+      background: secondary
+      contents:
+        - session_001.ipynb
+        - session_002.ipynb
+        - session_003.ipynb
+        - session_004.ipynb
+        - session_005.ipynb
+        #- index.qmd
+        #- about.qmd
+        #- section: "Sessions"
+        #  contents:
+            #- session_001.ipynb
+    #reader-mode: true
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+
+
+

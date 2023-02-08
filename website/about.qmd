@@ -1,0 +1,139 @@
+---
+title: "O kursu"
+---
+
+Pred Vama je **preliminarni plan kursa**. Moguće je da će pojedinačne sesije izgledati nešto drugačije od onoga što je ovde napisano, usled toga što ćemo možda morati da se prilagodimo tempu rada koji odgovara većini.
+
+- Zadržavam pravo da menjam sadržaj specifičnih sesija, sa obzirom na to da još uvek razvijam kurikulum. Međutim, najveći deo sadržaja kursa bi trebalo da odgovara ovome što možete videti u nastavku teksta. 
+
+**Materijali za čitanje i učenje** za svaki čas biće svima dostupni u elektronskom formatu. Podeliću ih sa vama pre časa, ili nakon časa. 
+
+To se odnosi i na materijale koje ćemo koristiti za **domaće zadatke**. Domaći zadaci su dosta važni, zato što nećemo sve važne stvari uspeti da pokrijemo tokom lekcija (a ni ne moramo -  samostalno učenje je svakako jedna od najvažnijih veština koja nam je potrebna u bilo kojoj istraživačkoj oblasti, ne najmanje u nauci o podacima). 
+
+U periodu između svake dve sesije, moći ćemo da ostanemo u kontaktu preko **Slack / Discord** kanala, koji ću pripremiti. Važno je da svi polaznici budu **otvoreni za razmenu ideja, pitanja i odgovora** na ovom kanalu. Zašto je to važno? **Da bismo mogli da učimo jedni od drugih.** U ranim stupnjevima programiranja često će se javljati slična pitanja i problemi, i ukoliko budemo učili jedni od drugih, uspećemo da ih lakše i brže savladamo.
+
+## Struktura kursa
+
+Kurs se sastoji iz dve celine: 
+
+1. **Uvod u Python** (sesije 1 - 5)  i
+2. **Uvod u mašinsko učenje** (sesije 6 - 10)
+
+Evo i spiska pojedinačnih sesija:
+
+- **Sesija 1:** Osnove Python-a
+- **Sesija 2:** Složeniji tipovi podataka, uvod u kontrolu toka
+- **Sesija 3:** Uvod u funkcije i Pandas
+- **Sesija 4:** Osnove vizualizacije podataka
+- **Sesija 5:** Rad sa fajlovima, rešavanje problema
+- **Sesija 6:** Osnove mašinskog učenja I: Linearna regresija
+- **Sesija 7:** Osnove mašinskog učenja II: Logistička regresija
+- **Sesija 8:** Osnove mašinskog učenja III: “Nasumično drveće i šume”
+- **Sesija 9:** Osnove mašinskog učenja IV: Klasterovanje
+- **Sesija 10:** Osnove mašinskog učenja V: Natural Language Processing
+
+## Detaljniji pregled sesija
+
+### Sesija 1: Osnove Python-a
+
+- Značaj i kratka istorija programskog jezika “Python”
+- Okruženja u kojima je moguće raditi u Python-u 
+    - Za prvi čas ćemo koristiti Google Colab - nikakva instalacija nije neophodna
+- Aritmetičke operacije u Python-u
+- Definisanje i upotreba varijabli
+- Osnovni tipovi podataka (int, float, str)
+- Operatori poređenja
+- Logički operatori
+- Uvod u liste 
+
+- **Domaći zadatak:** 
+    - Instalacija Pythona na lični računar, prateći priložena uputstva
+    - Pronađite neku zanimljivost o Python-u, podelite je sa ostalima
+
+---
+
+### Sesija 2: Složeniji tipovi podataka, uvod u kontrolu toka
+- NumPy vektori (arrays)
+- Rečnici (dictionary)
+- Uvod u Pandas (i DataFrame tip podataka)
+- Kontrola toka u Python-u:
+    - if, else i `elif` operatori
+- Petlje (loops): `for` i `while` 
+
+- **Domaći zadatak:** 
+    - Upoznavanje sa tipom podataka tuple
+    - Bliže upoznavanje sa svojstvima numpy vektora (arrays)
+    - Rešavanje nekolicine jednostavnih programerskih zadataka uz pomoć naučenih operatora i petlji
+
+### Sesija 3: Uvod u funkcije i Pandas
+- Definsanje funkcija - osnovna sintaksa + definisanje argumenata
+- Produbljivanje znanja rada u paketu Pandas
+- Resursi za učenje i vežbu - izvori podataka
+- Kaggle, inside airbnb, eurostat, …
+
+- **Očekivani rezultat:** Elementarno igranje sa .csv podacima pomoću paketa Pandas
+
+---
+
+### Sesija 4: Osnove vizualizacije podataka 
+- Kratko podsećanje na tipove vizualizacije podataka: 
+    - scatterplots, histograms, bar charts, box plots, heatmaps…
+- Vizuelizacije koje su ugrađene u Pandas
+- Vizuelizacije u paketu Matplotlib - osnovni paket za vizualizaciju u Python Data Science zajednici
+- Koje još opcije za vizuelizaciju postoje?
+    - Seaborn
+    - Plotly
+- **Ekskurs:** Može li se Python koristiti za stvaranje umetnosti? 
+
+- **Domaći zadatak:**
+    - Nekoliko vizuelizacija podataka po izboru studenata + 
+    - kreativnost
+
+---
+
+### Sesija 5: Rad sa fajlovima, rešavanje problema
+
+- File handling
+- Handling exceptions
+- Rad sa datumima
+- Rad sa nedostajućim podacima (“missing data”)
+- List comprehensions
+
+---
+
+### Sesija 6: Osnove mašinskog učenja I: Linearna regresija
+
+- Ukratko o mašinskom učenju, njegovim granama i primenama
+- Supervised VS Unsupervised ML
+- Tipični “workflow” u ML projektu
+- Linearna regresija - kako, zašto, kada?
+
+- **Domaći zadatak:** Primena linearne regresije na jedno istraživačko pitanje
+
+---
+
+### Sesija 7: Osnove mašinskog učenja II: Logistička regresija i “mere uspeha”
+
+---
+
+### Sesija 8: Osnove mašinskog učenja III: “Nasumično drveće i šume” 
+
+---
+
+### Sesija 9: Osnove mašinskog učenja IV: Klasterovanje
+
+- KNN 
+- K-means clustering 
+- PCA
+
+---
+
+### Sesija 10: Osnove mašinskog učenja V: Natural Language Processing
+
+---
+
+### Potencijalne teme - u zavisnosti od dostupnog vremena:
+
+- Uvod u korišćenje paketa Streamlit, za pravljenje jednostavnih veb aplikacija
+ Uvod u “web-scraping”
+
