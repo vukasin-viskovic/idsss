@@ -16,3 +16,5 @@ https://quarto.org/docs/reference/projects/websites.html#comments
 - Ograničiti TOC na max 2 nivoa?
 - Grupisati teme u levom sidebar-u?
 - Možda ukloniti sidebar, a umesto njega srediti padajući meni
+
+- Ceo sajt valja preimenovati -> idsss
