@@ -30,7 +30,7 @@ Evo i spiska pojedinačnih sesija:
 - [**Sesija 7:** Logistic Regression](session_007.ipynb)
 - [**Sesija 8:** Love Thy Neighbor, Robot](session_008.ipynb)
 - [**Sesija 9:** Can't See The Forest For The Trees](session_009.ipynb)
-- [**Sesija 10:** Unsupervised learning - Clustering](session_010.ipynb)
+- [**Sesija 10:** Unsupervised Learning - Clustering](session_010.ipynb)
 
 ## Detaljniji pregled sesija
 
@@ -64,6 +64,8 @@ Evo i spiska pojedinačnih sesija:
     - Upoznavanje sa tipom podataka tuple
     - Bliže upoznavanje sa svojstvima numpy vektora (arrays)
     - Rešavanje nekolicine jednostavnih programerskih zadataka uz pomoć naučenih operatora i petlji
+
+---
 
 ### [Sesija 3: Intro to Functions & Pandas](session_003.ipynb)
 - Definsanje funkcija - osnovna sintaksa + definisanje argumenata
@@ -133,7 +135,7 @@ Evo i spiska pojedinačnih sesija:
 
 ---
 
-### [Sesija 10: Unsupervised learning - Clustering](session_010.ipynb)
+### [Sesija 10: Unsupervised Learning - Clustering](session_010.ipynb)
 
 - Intro to unsupervised learning
 - K-means clustering 
@@ -141,7 +143,7 @@ Evo i spiska pojedinačnih sesija:
 
 ---
 
-## Potencijalne teme - u zavisnosti od dostupnog vremena i interesovanja:
+## Potencijalne teme - u zavisnosti od dostupnog vremena i interesovanja
 
 - Natural Language Processing
 - Dimensionality reduction

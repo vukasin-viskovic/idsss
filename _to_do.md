@@ -11,10 +11,8 @@ https://quarto.org/docs/reference/projects/websites.html#comments
 
 - Increase the website's loading speed (? is it necessary)
 
-- Session 10 -> Title Case
-
-- "Potencijalne teme - u zavisnosti od dostupnog vremena i interesovanja:" -> delete colon
-
-- Sesija 2 <-> Sesija 3 ----> add a line!
-
 - Lesson 2 -> "Your computer: Please don’t run this!" doesn't render as I'd want!
+
+- Ograničiti TOC na max 2 nivoa?
+- Grupisati teme u levom sidebar-u?
+- Možda ukloniti sidebar, a umesto njega srediti padajući meni

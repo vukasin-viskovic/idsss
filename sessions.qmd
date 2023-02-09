@@ -11,4 +11,4 @@ title: "Sessions"
 - [**Session 7:** Logistic Regression](session_007.ipynb)
 - [**Session 8:** Love Thy Neighbor, Robot](session_008.ipynb)
 - [**Session 9:** Can't See The Forest For The Trees](session_009.ipynb)
-- [**Session 10:** Unsupervised learning - Clustering](session_010.ipynb)
+- [**Session 10:** Unsupervised Learning - Clustering](session_010.ipynb)
