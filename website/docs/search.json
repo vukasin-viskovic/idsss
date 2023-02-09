@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome!",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "O kursu",
@@ -26,6 +19,13 @@
     "title": "O kursu",
     "section": "Detaljniji pregled sesija",
     "text": "Detaljniji pregled sesija\n\nSesija 1: Osnove Python-a\n\nZnačaj i kratka istorija programskog jezika “Python”\nOkruženja u kojima je moguće raditi u Python-u\n\nZa prvi čas ćemo koristiti Google Colab - nikakva instalacija nije neophodna\n\nAritmetičke operacije u Python-u\nDefinisanje i upotreba varijabli\nOsnovni tipovi podataka (int, float, str)\nOperatori poređenja\nLogički operatori\nUvod u liste\nDomaći zadatak:\n\nInstalacija Pythona na lični računar, prateći priložena uputstva\nPronađite neku zanimljivost o Python-u, podelite je sa ostalima\n\n\n\n\n\nSesija 2: Složeniji tipovi podataka, uvod u kontrolu toka\n\nNumPy vektori (arrays)\nRečnici (dictionary)\nUvod u Pandas (i DataFrame tip podataka)\nKontrola toka u Python-u:\n\nif, else i elif operatori\n\nPetlje (loops): for i while\nDomaći zadatak:\n\nUpoznavanje sa tipom podataka tuple\nBliže upoznavanje sa svojstvima numpy vektora (arrays)\nRešavanje nekolicine jednostavnih programerskih zadataka uz pomoć naučenih operatora i petlji\n\n\n\n\nSesija 3: Uvod u funkcije i Pandas\n\nDefinsanje funkcija - osnovna sintaksa + definisanje argumenata\nProdubljivanje znanja rada u paketu Pandas\nResursi za učenje i vežbu - izvori podataka\nKaggle, inside airbnb, eurostat, …\nOčekivani rezultat: Elementarno igranje sa .csv podacima pomoću paketa Pandas\n\n\n\n\nSesija 4: Osnove vizualizacije podataka\n\nKratko podsećanje na tipove vizualizacije podataka:\n\nscatterplots, histograms, bar charts, box plots, heatmaps…\n\nVizuelizacije koje su ugrađene u Pandas\nVizuelizacije u paketu Matplotlib - osnovni paket za vizualizaciju u Python Data Science zajednici\nKoje još opcije za vizuelizaciju postoje?\n\nSeaborn\nPlotly\n\nEkskurs: Može li se Python koristiti za stvaranje umetnosti?\nDomaći zadatak:\n\nNekoliko vizuelizacija podataka po izboru studenata +\nkreativnost\n\n\n\n\n\nSesija 5: Rad sa fajlovima, rešavanje problema\n\nFile handling\nHandling exceptions\nRad sa datumima\nRad sa nedostajućim podacima (“missing data”)\nList comprehensions\n\n\n\n\nSesija 6: Osnove mašinskog učenja I: Linearna regresija\n\nUkratko o mašinskom učenju, njegovim granama i primenama\nSupervised VS Unsupervised ML\nTipični “workflow” u ML projektu\nLinearna regresija - kako, zašto, kada?\nDomaći zadatak: Primena linearne regresije na jedno istraživačko pitanje\n\n\n\n\nSesija 7: Osnove mašinskog učenja II: Logistička regresija i “mere uspeha”\n\n\n\nSesija 8: Osnove mašinskog učenja III: “Nasumično drveće i šume”\n\n\n\nSesija 9: Osnove mašinskog učenja IV: Klasterovanje\n\nKNN\nK-means clustering\nPCA\n\n\n\n\nSesija 10: Osnove mašinskog učenja V: Natural Language Processing\n\n\n\nPotencijalne teme - u zavisnosti od dostupnog vremena:\n\nUvod u korišćenje paketa Streamlit, za pravljenje jednostavnih veb aplikacija Uvod u “web-scraping”"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "sessions.html",
