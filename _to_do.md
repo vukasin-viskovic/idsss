@@ -16,3 +16,5 @@ https://quarto.org/docs/reference/projects/websites.html#comments
 - "Potencijalne teme - u zavisnosti od dostupnog vremena i interesovanja:" -> delete colon
 
 - Sesija 2 <-> Sesija 3 ----> add a line!
+
+- Lesson 2 -> "Your computer: Please don’t run this!" doesn't render as I'd want!
