@@ -22,6 +22,11 @@ website:
         - session_003.ipynb
         - session_004.ipynb
         - session_005.ipynb
+        - session_006.ipynb
+        - session_007.ipynb
+        - session_008.ipynb
+        - session_009.ipynb
+        - session_010.ipynb
         #- index.qmd
         #- about.qmd
         #- section: "Sessions"

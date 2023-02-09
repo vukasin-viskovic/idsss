@@ -21,20 +21,20 @@ Kurs se sastoji iz dve celine:
 
 Evo i spiska pojedinačnih sesija:
 
-- **Sesija 1:** Osnove Python-a
-- **Sesija 2:** Složeniji tipovi podataka, uvod u kontrolu toka
-- **Sesija 3:** Uvod u funkcije i Pandas
-- **Sesija 4:** Osnove vizualizacije podataka
-- **Sesija 5:** Rad sa fajlovima, rešavanje problema
-- **Sesija 6:** Osnove mašinskog učenja I: Linearna regresija
-- **Sesija 7:** Osnove mašinskog učenja II: Logistička regresija
-- **Sesija 8:** Osnove mašinskog učenja III: “Nasumično drveće i šume”
-- **Sesija 9:** Osnove mašinskog učenja IV: Klasterovanje
-- **Sesija 10:** Osnove mašinskog učenja V: Natural Language Processing
+- [**Sesija 1:** Intro to Python](session_001.ipynb)
+- [**Sesija 2:** More Data Types & Control Flow](session_002.ipynb)
+- [**Sesija 3:** Intro to Functions & Pandas](session_003.ipynb)
+- [**Sesija 4:** Intro to Data Visualization](session_004.ipynb)
+- [**Sesija 5:** Not in Kansas Anymore](session_005.ipynb)
+- [**Sesija 6:** Intro to ML & Linear Regression](session_006.ipynb)
+- [**Sesija 7:** Logistic Regression](session_007.ipynb)
+- [**Sesija 8:** Love Thy Neighbor, Robot](session_008.ipynb)
+- [**Sesija 9:** Can't See The Forest For The Trees](session_009.ipynb)
+- [**Sesija 10:** Unsupervised learning - Clustering](session_010.ipynb)
 
 ## Detaljniji pregled sesija
 
-### Sesija 1: Osnove Python-a
+### [Sesija 1: Intro to Python](session_001.ipynb)
 
 - Značaj i kratka istorija programskog jezika “Python”
 - Okruženja u kojima je moguće raditi u Python-u 
@@ -52,7 +52,7 @@ Evo i spiska pojedinačnih sesija:
 
 ---
 
-### Sesija 2: Složeniji tipovi podataka, uvod u kontrolu toka
+### [Sesija 2: More Data Types & Control Flow](session_002.ipynb)
 - NumPy vektori (arrays)
 - Rečnici (dictionary)
 - Uvod u Pandas (i DataFrame tip podataka)
@@ -65,7 +65,7 @@ Evo i spiska pojedinačnih sesija:
     - Bliže upoznavanje sa svojstvima numpy vektora (arrays)
     - Rešavanje nekolicine jednostavnih programerskih zadataka uz pomoć naučenih operatora i petlji
 
-### Sesija 3: Uvod u funkcije i Pandas
+### [Sesija 3: Intro to Functions & Pandas](session_003.ipynb)
 - Definsanje funkcija - osnovna sintaksa + definisanje argumenata
 - Produbljivanje znanja rada u paketu Pandas
 - Resursi za učenje i vežbu - izvori podataka
@@ -75,7 +75,7 @@ Evo i spiska pojedinačnih sesija:
 
 ---
 
-### Sesija 4: Osnove vizualizacije podataka 
+### [Sesija 4: Intro to Data Visualization](session_004.ipynb) 
 - Kratko podsećanje na tipove vizualizacije podataka: 
     - scatterplots, histograms, bar charts, box plots, heatmaps…
 - Vizuelizacije koje su ugrađene u Pandas
@@ -91,7 +91,7 @@ Evo i spiska pojedinačnih sesija:
 
 ---
 
-### Sesija 5: Rad sa fajlovima, rešavanje problema
+### [Sesija 5: Not in Kansas Anymore](session_005.ipynb)
 
 - File handling
 - Handling exceptions
@@ -101,39 +101,50 @@ Evo i spiska pojedinačnih sesija:
 
 ---
 
-### Sesija 6: Osnove mašinskog učenja I: Linearna regresija
+### [Sesija 6: Intro to ML & Linear Regression](session_006.ipynb)
 
 - Ukratko o mašinskom učenju, njegovim granama i primenama
-- Supervised VS Unsupervised ML
-- Tipični “workflow” u ML projektu
+- Supervised VS Unsupervised ML (+ semi-supervised & reinforcement learning)
+- Tipični “workflow” u ML projektu u biblioteci `scikit-learn`
 - Linearna regresija - kako, zašto, kada?
 
 - **Domaći zadatak:** Primena linearne regresije na jedno istraživačko pitanje
 
 ---
 
-### Sesija 7: Osnove mašinskog učenja II: Logistička regresija i “mere uspeha”
+### [Sesija 7: Logistic Regression](session_007.ipynb)
+
+- Uvod u mere performanse
+- Logistička regresija
+
+### [Sesija 8: Love Thy Neighbor, Robot](session_008.ipynb)
+
+- KNN
+- SVMs 
+
+- **Additional readings:** Naive Bayes
 
 ---
 
-### Sesija 8: Osnove mašinskog učenja III: “Nasumično drveće i šume” 
+### [Sesija 9: Can't See The Forest For The Trees](session_009.ipynb)
+
+- Decision Trees
+- Random Forests 
 
 ---
 
-### Sesija 9: Osnove mašinskog učenja IV: Klasterovanje
+### [Sesija 10: Unsupervised learning - Clustering](session_010.ipynb)
 
-- KNN 
+- Intro to unsupervised learning
 - K-means clustering 
-- PCA
+- Recap of the second part of the course!
 
 ---
 
-### Sesija 10: Osnove mašinskog učenja V: Natural Language Processing
+## Potencijalne teme - u zavisnosti od dostupnog vremena i interesovanja:
 
----
-
-### Potencijalne teme - u zavisnosti od dostupnog vremena:
-
+- Natural Language Processing
+- Dimensionality reduction
 - Uvod u korišćenje paketa Streamlit, za pravljenje jednostavnih veb aplikacija
- Uvod u “web-scraping”
+- Uvod u *web-scraping*
 

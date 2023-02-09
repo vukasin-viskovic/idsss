@@ -7,8 +7,8 @@ title: "Sessions"
 - [**Session 3:** Intro to Functions & Pandas](session_003.ipynb)
 - [**Session 4:** Intro to Data Visualization](session_004.ipynb)
 - [**Session 5:** Not in Kansas Anymore](session_005.ipynb)
-- Session 6
-- Session 7
-- Session 8
-- Session 9
-- Session 10
+- [**Session 6:** Intro to ML & Linear Regression](session_006.ipynb)
+- [**Session 7:** Logistic Regression](session_007.ipynb)
+- [**Session 8:** Love Thy Neighbor, Robot](session_008.ipynb)
+- [**Session 9:** Can't See The Forest For The Trees](session_009.ipynb)
+- [**Session 10:** Unsupervised learning - Clustering](session_010.ipynb)
