@@ -12,3 +12,7 @@ https://quarto.org/docs/reference/projects/websites.html#comments
 - Increase the website's loading speed (? is it necessary)
 
 - Session 10 -> Title Case
+
+- "Potencijalne teme - u zavisnosti od dostupnog vremena i interesovanja:" -> delete colon
+
+- Sesija 2 <-> Sesija 3 ----> add a line!
