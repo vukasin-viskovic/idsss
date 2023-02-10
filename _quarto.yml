@@ -4,6 +4,8 @@ project:
 
 website:
   title: "IDSSS"
+  favicon: logo.png # https://icons8.com/icons/set/favicon-graph
+  open-graph: true 
   navbar:
     left:
       - href: index.qmd

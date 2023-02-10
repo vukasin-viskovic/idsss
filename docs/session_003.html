@@ -93,6 +93,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -130,6 +131,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="IDSSS - Lesson 3 - Intro to Functions &amp; Pandas">
+<meta property="og:description" content="Intro to Data Science for Social Scientists">
+<meta property="og:site-name" content="IDSSS">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -280,13 +284,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<p><img src="images\session_003\kandinsky_1_banner.jpg" class="img-fluid" alt="kandindky_banner"> <em>Wassily Kandinsky</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images\session_003\kandinsky_1_banner.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Yellow-Red-Blue</em></figcaption><p></p>
+</figure>
+</div>
 <section id="recap-of-the-previous-session" class="level2">
 <h2 class="anchored" data-anchor-id="recap-of-the-previous-session">1. Recap of the previous Session</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images\session_003\kandinsky_6_banner.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">kandindky_6_banner</figcaption><p></p>
+<p></p><figcaption class="figure-caption"><em>Stars</em></figcaption><p></p>
 </figure>
 </div>
 <ul>
@@ -303,7 +312,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images\session_003\kandinsky_3_banner.jfif" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">kandindky_3_banner</figcaption><p></p>
+<p></p><figcaption class="figure-caption"><em>In Blue</em></figcaption><p></p>
 </figure>
 </div>
 <p>Congrats for making to this point in the course.</p>
@@ -465,7 +474,7 @@ sum_squares(a, b)
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images\session_003\kandinsky_4_banner.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">kandinsky_4_banner</figcaption><p></p>
+<p></p><figcaption class="figure-caption"><em>On White II</em></figcaption><p></p>
 </figure>
 </div>
 <div class="cell">
@@ -1210,7 +1219,7 @@ memory usage: 83.7+ KB</code></pre>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images\session_003\kandinsky_5_banner.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">kandinsky_5_banner</figcaption><p></p>
+<p></p><figcaption class="figure-caption"><em>Composition 8</em></figcaption><p></p>
 </figure>
 </div>
 <div class="cell">
@@ -1843,7 +1852,7 @@ Name: Survived, Length: 891, dtype: bool</code></pre>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images\session_003\kandinsky_2.1_banner.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">kandindky_2_banner</figcaption><p></p>
+<p></p><figcaption class="figure-caption"><em>Pictures at an Exhibition</em></figcaption><p></p>
 </figure>
 </div>
 <div class="cell">
@@ -2184,6 +2193,12 @@ Name: Survived, Length: 891, dtype: bool</code></pre>
 </section>
 <section id="pd.dataframe.groupby-aggragate-functions" class="level2">
 <h2 class="anchored" data-anchor-id="pd.dataframe.groupby-aggragate-functions">7. <code>pd.DataFrame.groupby()</code> + aggragate functions</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images\session_003\kandinsky_9_banner.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Color Study: Squares with Concentric Circles</em></figcaption><p></p>
+</figure>
+</div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb77"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a>df.groupby(<span class="st">"Survived"</span>)[<span class="st">"Age"</span>].mean()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -2193,7 +2208,7 @@ Name: Survived, Length: 891, dtype: bool</code></pre>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images\session_003\kandinsky_7_banner.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">kandindky_7_banner</figcaption><p></p>
+<p></p><figcaption class="figure-caption"><em>Bavarian Village With Field</em></figcaption><p></p>
 </figure>
 </div>
 <ul>
@@ -2206,7 +2221,7 @@ Name: Survived, Length: 891, dtype: bool</code></pre>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images\session_003\kandinsky_8_banner.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">kandindky_8_banner</figcaption><p></p>
+<p></p><figcaption class="figure-caption"><em>Arabs I (Cemetery)</em></figcaption><p></p>
 </figure>
 </div>
 <hr>
