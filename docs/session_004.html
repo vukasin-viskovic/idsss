@@ -245,11 +245,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#recap-of-the-previous-session" id="toc-recap-of-the-previous-session" class="nav-link active" data-scroll-target="#recap-of-the-previous-session">1. Recap of the previous session</a></li>
   <li><a href="#a-quick-reminder" id="toc-a-quick-reminder" class="nav-link" data-scroll-target="#a-quick-reminder">2. A quick reminder</a></li>
   <li><a href="#pandas-built-in-visualizations" id="toc-pandas-built-in-visualizations" class="nav-link" data-scroll-target="#pandas-built-in-visualizations">3. Pandas built-in visualizations</a></li>
-  <li><a href="#matplotlib" id="toc-matplotlib" class="nav-link" data-scroll-target="#matplotlib">4. Matplotlib</a>
+  <li><a href="#matplotlib" id="toc-matplotlib" class="nav-link" data-scroll-target="#matplotlib">4. Matplotlib</a></li>
+  <li><a href="#other-options-for-plotting" id="toc-other-options-for-plotting" class="nav-link" data-scroll-target="#other-options-for-plotting">Other options for plotting</a>
   <ul class="collapse">
-  <li><a href="#object-oriented-plotting-in-matplotlib" id="toc-object-oriented-plotting-in-matplotlib" class="nav-link" data-scroll-target="#object-oriented-plotting-in-matplotlib">Object-Oriented plotting in Matplotlib</a></li>
+  <li><a href="#a-seaborn" id="toc-a-seaborn" class="nav-link" data-scroll-target="#a-seaborn">a) seaborn</a></li>
+  <li><a href="#b-plotly" id="toc-b-plotly" class="nav-link" data-scroll-target="#b-plotly">b) plotly</a></li>
   </ul></li>
-  <li><a href="#other-options-for-plotting" id="toc-other-options-for-plotting" class="nav-link" data-scroll-target="#other-options-for-plotting">Other options for plotting</a></li>
   <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
   <li><a href="#additional-readings" id="toc-additional-readings" class="nav-link" data-scroll-target="#additional-readings">Additional Readings</a></li>
   </ul>
@@ -401,18 +402,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
-<div class="cell" data-execution_count="31">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"Age"</span>].plot(kind <span class="op">=</span> <span class="st">"hist"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="31">
-<pre><code>&lt;AxesSubplot:ylabel='Frequency'&gt;</code></pre>
-</div>
+<div class="cell" data-execution_count="47">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"Age"</span>].plot(kind <span class="op">=</span> <span class="st">"hist"</span>)<span class="op">\</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    .set_facecolor(<span class="st">"white"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<p><img src="session_004_files/figure-html/cell-4-output-2.png" class="img-fluid"></p>
+<p><img src="session_004_files/figure-html/cell-4-output-1.png" class="img-fluid"></p>
 </div>
 </div>
-<div class="cell" data-execution_count="32">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df.plot.scatter(x <span class="op">=</span> <span class="st">"Age"</span>, y <span class="op">=</span> <span class="st">"Fare"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="32">
+<div class="cell" data-execution_count="43">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df.plot.scatter(x <span class="op">=</span> <span class="st">"Age"</span>, y <span class="op">=</span> <span class="st">"Fare"</span>)<span class="op">\</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    .set_facecolor(<span class="st">"white"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="43">
 <pre><code>&lt;AxesSubplot:xlabel='Age', ylabel='Fare'&gt;</code></pre>
 </div>
 <div class="cell-output cell-output-display">
@@ -420,7 +420,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 <div class="cell" data-execution_count="33">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"Sex"</span>].value_counts()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"Sex"</span>].value_counts()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="33">
 <pre><code>male      577
 female    314
@@ -428,7 +428,8 @@ Name: Sex, dtype: int64</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="34">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"Sex"</span>].value_counts().plot(kind <span class="op">=</span> <span class="st">"bar"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"Sex"</span>].value_counts().plot(kind <span class="op">=</span> <span class="st">"bar"</span>)<span class="op">\</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    .set_facecolor(<span class="st">"white"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="34">
 <pre><code>&lt;AxesSubplot:&gt;</code></pre>
 </div>
@@ -437,7 +438,7 @@ Name: Sex, dtype: int64</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="35">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>df.groupby(<span class="st">"Pclass"</span>)[<span class="st">"Survived"</span>].mean()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>df.groupby(<span class="st">"Pclass"</span>)[<span class="st">"Survived"</span>].mean()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="35">
 <pre><code>Pclass
 1    0.629630
@@ -447,7 +448,8 @@ Name: Survived, dtype: float64</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="36">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>df.groupby(<span class="st">"Pclass"</span>)[<span class="st">"Survived"</span>].mean().plot(kind <span class="op">=</span> <span class="st">"bar"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>df.groupby(<span class="st">"Pclass"</span>)[<span class="st">"Survived"</span>].mean().plot(kind <span class="op">=</span> <span class="st">"bar"</span>)<span class="op">\</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    .set_facecolor(<span class="st">"white"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="36">
 <pre><code>&lt;AxesSubplot:xlabel='Pclass'&gt;</code></pre>
 </div>
@@ -455,19 +457,21 @@ Name: Survived, dtype: float64</code></pre>
 <p><img src="session_004_files/figure-html/cell-9-output-2.png" class="img-fluid"></p>
 </div>
 </div>
-<div class="cell" data-execution_count="37">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>df.groupby(<span class="st">"Pclass"</span>)[<span class="st">"Age"</span>].plot(kind <span class="op">=</span> <span class="st">"hist"</span>, alpha <span class="op">=</span> <span class="fl">0.5</span>)</span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>plt.legend()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="37">
-<pre><code>&lt;matplotlib.legend.Legend at 0x1c336250d48&gt;</code></pre>
+<div class="cell" data-execution_count="48">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>df.groupby(<span class="st">"Pclass"</span>)[<span class="st">"Age"</span>].plot(kind <span class="op">=</span> <span class="st">"hist"</span>, alpha <span class="op">=</span> <span class="fl">0.5</span>)<span class="op">\</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    .set_facecolor(<span class="st">"white"</span>)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>plt.legend()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-error">
+<pre><code>AttributeError: 'Series' object has no attribute 'set_facecolor'</code></pre>
 </div>
 <div class="cell-output cell-output-display">
 <p><img src="session_004_files/figure-html/cell-10-output-2.png" class="img-fluid"></p>
 </div>
 </div>
 <div class="cell" data-execution_count="38">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>df.groupby(<span class="st">"Survived"</span>)[<span class="st">"Age"</span>].plot(kind <span class="op">=</span> <span class="st">"hist"</span>, alpha <span class="op">=</span> <span class="fl">0.5</span>)</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>plt.legend()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>df.groupby(<span class="st">"Survived"</span>)[<span class="st">"Age"</span>].plot(kind <span class="op">=</span> <span class="st">"hist"</span>, alpha <span class="op">=</span> <span class="fl">0.5</span>)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>plt.legend()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="38">
 <pre><code>&lt;matplotlib.legend.Legend at 0x1c33a6e7ec8&gt;</code></pre>
 </div>
@@ -478,30 +482,143 @@ Name: Survived, dtype: float64</code></pre>
 </section>
 <section id="matplotlib" class="level2">
 <h2 class="anchored" data-anchor-id="matplotlib">4. Matplotlib</h2>
-<section id="object-oriented-plotting-in-matplotlib" class="level3">
-<h3 class="anchored" data-anchor-id="object-oriented-plotting-in-matplotlib">Object-Oriented plotting in Matplotlib</h3>
-<div class="cell" data-execution_count="39">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt </span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>plt.rcParams[<span class="st">"figure.dpi"</span>] <span class="op">=</span> <span class="dv">150</span></span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(facecolor <span class="op">=</span> <span class="st">'white'</span>)</span>
-<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell" data-execution_count="55">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>plt.rcParams[<span class="st">"figure.dpi"</span>] <span class="op">=</span> <span class="dv">150</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <p><img src="session_004_files/figure-html/cell-12-output-1.png" class="img-fluid"></p>
 </div>
 </div>
-<div class="cell" data-execution_count="40">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>ax.scatter(x <span class="op">=</span> df[<span class="st">"Age"</span>], y <span class="op">=</span> df[<span class="st">"Fare"</span>])</span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>fig</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="40">
+<div class="cell" data-execution_count="65">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>num <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">2</span> <span class="op">*</span> np.pi, <span class="dv">200</span>)</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>sin <span class="op">=</span> np.sin(num)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>ax.plot(num, sin)</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
 <p><img src="session_004_files/figure-html/cell-13-output-1.png" class="img-fluid"></p>
 </div>
 </div>
-</section>
+<div class="cell" data-execution_count="66">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>num <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">2</span> <span class="op">*</span> np.pi, <span class="dv">200</span>)</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>sin <span class="op">=</span> np.sin(num)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>cos <span class="op">=</span> np.cos(num)</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>ax.plot(num, sin)</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>ax.plot(num, cos)</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="session_004_files/figure-html/cell-14-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-execution_count="67">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>num <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">2</span> <span class="op">*</span> np.pi, <span class="dv">10</span>)</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>sin <span class="op">=</span> np.sin(num)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>cos <span class="op">=</span> np.cos(num)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>ax.plot(num, sin)</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>ax.plot(num, cos)</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="session_004_files/figure-html/cell-15-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-execution_count="84">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>num <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">2</span> <span class="op">*</span> np.pi, <span class="dv">10</span>)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>sin <span class="op">=</span> np.sin(num)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>cos <span class="op">=</span> np.cos(num)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>ax.plot(num, sin, </span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>        marker <span class="op">=</span> <span class="st">"o"</span>, </span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>        linestyle <span class="op">=</span> <span class="st">"--"</span>, </span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>        color <span class="op">=</span> <span class="st">"g"</span>,</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>        label <span class="op">=</span> <span class="st">"sin"</span>)</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>ax.plot(num, cos, </span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a>        marker <span class="op">=</span> <span class="st">"o"</span>, </span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a>        markersize <span class="op">=</span> <span class="dv">3</span>, </span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a>        linewidth <span class="op">=</span> <span class="dv">1</span>, </span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a>        label <span class="op">=</span> <span class="st">"cos"</span>)</span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-19"><a href="#cb22-19" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb22-20"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="session_004_files/figure-html/cell-16-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<p>https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.plot.html</p>
+<p>🏠 What other types of markers are there?<br> 🏠 How can we define colors to be used in our plots?</p>
+<div class="cell" data-execution_count="86">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Let's return to our Titanic data now</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(facecolor <span class="op">=</span> <span class="st">'white'</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>ax.scatter(x <span class="op">=</span> df[<span class="st">"Age"</span>], y <span class="op">=</span> df[<span class="st">"Fare"</span>])</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="session_004_files/figure-html/cell-17-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-execution_count="101">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(facecolor <span class="op">=</span> <span class="st">'white'</span>)</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>ax.scatter(x <span class="op">=</span> df[<span class="st">"Age"</span>], y <span class="op">=</span> df[<span class="st">"Fare"</span>])</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">"Age in years"</span>)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">"Fare in £"</span>)</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">"Age VS Fare"</span>)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="session_004_files/figure-html/cell-18-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-execution_count="102">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(facecolor <span class="op">=</span> <span class="st">'white'</span>)</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>ax.scatter(x <span class="op">=</span> df[<span class="st">"Age"</span>], y <span class="op">=</span> df[<span class="st">"Fare"</span>], </span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>           c <span class="op">=</span> <span class="st">"red"</span>, </span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>           alpha <span class="op">=</span> <span class="fl">0.3</span>, </span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>           edgecolors <span class="op">=</span> <span class="st">"black"</span>)</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">"Age in years"</span>)</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">"Fare in £"</span>)</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">"Age VS Fare"</span>)</span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="session_004_files/figure-html/cell-19-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<p>https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.scatter.html</p>
+<p>https://stackoverflow.com/questions/26139423/plot-different-color-for-different-categorical-levels-using-matplotlib</p>
+<p>What if we want to add another “dimension” to our graph?</p>
+<p>For example, we’d like to distinguish between men and women, or those who survived and those who didn’t…</p>
+<p>Enter Seaborn!</p>
 </section>
 <section id="other-options-for-plotting" class="level2">
 <h2 class="anchored" data-anchor-id="other-options-for-plotting">Other options for plotting</h2>
+<section id="a-seaborn" class="level3">
+<h3 class="anchored" data-anchor-id="a-seaborn">a) seaborn</h3>
+</section>
+<section id="b-plotly" class="level3">
+<h3 class="anchored" data-anchor-id="b-plotly">b) plotly</h3>
+</section>
 </section>
 <section id="homework" class="level2">
 <h2 class="anchored" data-anchor-id="homework">Homework</h2>
@@ -510,7 +627,10 @@ Name: Survived, dtype: float64</code></pre>
 <h2 class="anchored" data-anchor-id="additional-readings">Additional Readings</h2>
 <ul>
 <li>https://pandas.pydata.org/docs/user_guide/visualization.html</li>
-<li>https://matplotlib.org</li>
+<li>https://matplotlib.org
+<ul>
+<li>https://matplotlib.org/cheatsheets/</li>
+</ul></li>
 </ul>
 <hr>
 
