@@ -18,3 +18,4 @@ https://quarto.org/docs/reference/projects/websites.html#comments
 - Možda ukloniti sidebar, a umesto njega srediti padajući meni
 
 - Ceo sajt valja preimenovati -> idsss
+- A i moj github nalog vala
