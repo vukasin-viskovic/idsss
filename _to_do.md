@@ -10,12 +10,12 @@ https://quarto.org/docs/reference/projects/websites.html#comments
   - https://quarto.org/docs/websites/website-navigation.html#hybrid-navigation
 
 - Increase the website's loading speed (? is it necessary)
-
-- Lesson 2 -> "Your computer: Please don’t run this!" doesn't render as I'd want!
-
 - Ograničiti TOC na max 2 nivoa?
 - Grupisati teme u levom sidebar-u?
 - Možda ukloniti sidebar, a umesto njega srediti padajući meni
 
-- Ceo sajt valja preimenovati -> idsss
-- A i moj github nalog vala
+---
+
+Useful:
+- https://quarto.org/docs/output-formats/html-code.html
+- https://quarto.org/docs/websites/website-tools.html
