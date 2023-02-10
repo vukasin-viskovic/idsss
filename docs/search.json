@@ -30,9 +30,93 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome!",
+    "title": "Introduction to Data Science for Social Scientists",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Zdravo svima, i dobrodošli!\nHteo bih da Vas informišem o projektu koji želim da pokrenem: “Introduction to Data Science for Social Scientists”.\nReč je o besplatnom kursu upotrebe programskog jezika Python i tehnika mašinskog učenja."
+  },
+  {
+    "objectID": "index.html#zašto-python",
+    "href": "index.html#zašto-python",
+    "title": "Introduction to Data Science for Social Scientists",
+    "section": "Zašto Python?",
+    "text": "Zašto Python?\nPython je jedan od najpopularnijih programskih jezika na svetu i poznavanje njegovih osnova je velika omparativna prednost u svakoj profesiji. Lak je za učenje. “Otključava” vrata programiranja, i primenljiv je u širokom nizu oblasti."
+  },
+  {
+    "objectID": "index.html#zašto-mašinsko-učenje",
+    "href": "index.html#zašto-mašinsko-učenje",
+    "title": "Introduction to Data Science for Social Scientists",
+    "section": "Zašto mašinsko učenje?",
+    "text": "Zašto mašinsko učenje?\nMašinsko učenje je jedna od najvažnijih oblasti u okviru nauke o podacima. Predstavlja ekstenziju tehnika statističkog zaključivanja, sa kojima ste možda već upoznati, i koristi se za ekstrahovanje korisnih uvida u čitavom nizu oblasti. “Data Science” predstavlja simbiozu naučnog istraživanja i primene najsavremenijih analitičkih metoda na velike količine podataka kako bi se došlo do korisnih saznanja u širokom nizu oblasti. Studenti društvenih nauka poseduju dobre predispozicije da budu uspešni u ovoj oblasti, a saznanja iz nje im mogu pomoći i da budu bolji društveni naučnici."
+  },
+  {
+    "objectID": "index.html#šta-je-cilj-programa",
+    "href": "index.html#šta-je-cilj-programa",
+    "title": "Introduction to Data Science for Social Scientists",
+    "section": "Šta je cilj programa?",
+    "text": "Šta je cilj programa?\nPrvi cilj programa je da polaznici steknu dovoljno znanja iz Python-a da mogu samostalno da nastave učenje. Drugi cilj je da polaznici steknu dovoljno znanja iz oblasti mašinskog učenja da mogu da različite tehnike iz ove oblasti primene u rešavanju svojih istraživačkih pitanja.\nVoleo bih da u toku kursa što više sarađujemo, razvijamo zajedničke projekte, učimo jedni od drugih i sklapamo istraživačka partnerstva. Naglasak je na primeni naučenog.\nCilj programa nije upoznavanje sa tzv. “neuronskim mrežama”."
+  },
+  {
+    "objectID": "index.html#šta-su-planirani-rezultati-ovog-programa",
+    "href": "index.html#šta-su-planirani-rezultati-ovog-programa",
+    "title": "Introduction to Data Science for Social Scientists",
+    "section": "Šta su planirani rezultati ovog programa?",
+    "text": "Šta su planirani rezultati ovog programa?\nVoleo bih da svakom zainteresovanom polazniku ovaj program pruži dovoljno znanja, inspiracije i podrške da do njegovog kraja napravi 3-4 manjih data-projekata koje može da prikaže u svom portfoliju, kao i jedan finalni, veći, grupni projekat. Ovo će naravno, u velikoj meri zavisiti od lične spremnosti na zalaganje svakog polaznika. Takođe, voleo bih da tokom trajanja projekta formiramo online “biblioteku” znanja - rešenih nedoumica, tipičnih dilema, zanimljivosti i korisnih resursa za učenje, kao i da predavanja postavimo na Youtube, kako bi bila dostupna svima koji se interesuju za Python i Data Science."
+  },
+  {
+    "objectID": "index.html#kome-je-program-namenjen-koji-su-preduslovi-za-učešće-u-njemu",
+    "href": "index.html#kome-je-program-namenjen-koji-su-preduslovi-za-učešće-u-njemu",
+    "title": "Introduction to Data Science for Social Scientists",
+    "section": "Kome je program namenjen? Koji su preduslovi za učešće u njemu?",
+    "text": "Kome je program namenjen? Koji su preduslovi za učešće u njemu?\nProgram je namenjen studentima sociologije i psihologije sa savladanim osnovama statistike (više godine studija).\n\nZainteresovan/a sam za program, ali se ne uklapam u gore navedeni profil. Šta da radim?\nPišite mi, na adresu viskovic.vukasin@gmail.com. Ukoliko se Vaša interesovanja, iskustvo i motivacija poklapaju sa načinom na koji je kurs zamišljen, to ne bi trebalo da bude prepreka.\n\nDalji preduslovi podrazumevaju radoznalost, motivisanost za samostalno istraživanje i deljenje znanja, spremnost na saradnju, posvećenost programu (spremnost da mu posvetite barem 2 sata nedeljno), poznavanje osnova statistike i rada na računaru (ukoliko, recimo, već koristite Excel ili SPSS, pohađanje kursa će Vam biti znatno olakšano) i razumevanje pročitanog na engleskom jeziku. Naravno, dobro bi bilo imati i stabilnu internet konekciju."
+  },
+  {
+    "objectID": "index.html#iz-kojih-oblasti-i-aktivnosti-se-kurs-sastoji",
+    "href": "index.html#iz-kojih-oblasti-i-aktivnosti-se-kurs-sastoji",
+    "title": "Introduction to Data Science for Social Scientists",
+    "section": "Iz kojih oblasti i aktivnosti se kurs sastoji?",
+    "text": "Iz kojih oblasti i aktivnosti se kurs sastoji?\nNa ovom linku možete naći preliminarni plan sesija sa spiskom oblasti koje ćemo pokriti i aktivnosti kojima ćemo se baviti."
+  },
+  {
+    "objectID": "index.html#materijali-za-učenje",
+    "href": "index.html#materijali-za-učenje",
+    "title": "Introduction to Data Science for Social Scientists",
+    "section": "Materijali za učenje?",
+    "text": "Materijali za učenje?\nBiće obezbeđeni u elektronskom formatu pre/posle svake sesije. Koristićemo delove knjiga, članke, video snimke i delove Python koda."
+  },
+  {
+    "objectID": "index.html#trajanje-programa-početak-programa-gde-i-kada-se-sastajemo",
+    "href": "index.html#trajanje-programa-početak-programa-gde-i-kada-se-sastajemo",
+    "title": "Introduction to Data Science for Social Scientists",
+    "section": "Trajanje programa? Početak programa? Gde i kada se sastajemo?",
+    "text": "Trajanje programa? Početak programa? Gde i kada se sastajemo?\nProgram bi trajao 3-4 meseca, sa početkom u martu. Imalo bismo ukupno oko 10 jednočasovnih do jednoipočasovnih sesija. Sastajali bismo se jednom nedeljno, verovatno subotom, preko Zoom-a ili slične platforme. Dakle, online. Više informacija šaljem blagovremeno."
+  },
+  {
+    "objectID": "index.html#da-li-se-učešće-u-programu-plaća",
+    "href": "index.html#da-li-se-učešće-u-programu-plaća",
+    "title": "Introduction to Data Science for Social Scientists",
+    "section": "Da li se učešće u programu plaća?",
+    "text": "Da li se učešće u programu plaća?\nNe, celokupan program je besplatan."
+  },
+  {
+    "objectID": "index.html#ko-sam-ja",
+    "href": "index.html#ko-sam-ja",
+    "title": "Introduction to Data Science for Social Scientists",
+    "section": "Ko sam ja?",
+    "text": "Ko sam ja?\nZovem se Vukašin Višković. Završio sam osnovne studije sociologije na Filozofskom fakultetu u Beogradu, i master studije sociologije na Freie Univerzitetu u Berlinu. U svom akademskom i profesionalnom radu sam koristio Python i R za analizu podataka, i u tom pogledu imam višegodišnje iskustvo. Zaposlen sam kao Data Analyst / Data Scientist na Institutu za primenjena zdravstvena istraživanja u Berlinu. Na ovom linku možete saznati malo više o meni (moj LinkedIn profil).\nŽelim da svoje znanje podelim sa Vama, ali i da učim zajedno sa Vama i od Vas."
+  },
+  {
+    "objectID": "index.html#sledeći-koraci",
+    "href": "index.html#sledeći-koraci",
+    "title": "Introduction to Data Science for Social Scientists",
+    "section": "Sledeći koraci?",
+    "text": "Sledeći koraci?\nSlobodno upišite svoje ime i imejl adresu u polja u dnu ovog dokumenta, ukoliko ste zainteresovani za program. Ovo ne znači da ste u obavezi da pohađate program, već mi samo omogućava da procenim generalnu zainteresovanost, i osmislim dalje korake. Nakon toga ću Vas kontaktirati preko imejla sa detaljnijim informacijama."
+  },
+  {
+    "objectID": "index.html#pitanja",
+    "href": "index.html#pitanja",
+    "title": "Introduction to Data Science for Social Scientists",
+    "section": "Pitanja?",
+    "text": "Pitanja?\nMožete mi pisati na imejl adresu: viskovic.vukasin@gmail.com\nTu sam da odgovorim na sva Vaša pitanja.\n\nHvala na interesovanju!\nVukašin"
   },
   {
     "objectID": "sessions.html",
