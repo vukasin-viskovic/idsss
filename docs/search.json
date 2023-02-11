@@ -119,13 +119,6 @@
     "text": "Pitanja?\nMožete mi pisati na imejl adresu: viskovic.vukasin@gmail.com\nTu sam da odgovorim na sva Vaša pitanja.\n\nHvala na interesovanju!\nVukašin"
   },
   {
-    "objectID": "sessions.html",
-    "href": "sessions.html",
-    "title": "Sessions",
-    "section": "",
-    "text": "Session 1: Intro to Python\nSession 2: More Data Types & Control Flow\nSession 3: Intro to Functions & Pandas\nSession 4: Intro to Data Visualization\nSession 5: Not in Kansas Anymore\nSession 6: Intro to ML & Linear Regression\nSession 7: Logistic Regression\nSession 8: Love Thy Neighbor, Robot\nSession 9: Can’t See The Forest For The Trees\nSession 10: Unsupervised Learning - Clustering"
-  },
-  {
     "objectID": "session_001.html",
     "href": "session_001.html",
     "title": "Lesson 1 - Intro to Python",

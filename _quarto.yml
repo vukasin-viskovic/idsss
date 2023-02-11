@@ -4,6 +4,10 @@ project:
 
 website:
   title: "IDSSS"
+  twitter-card:
+    card-style: summary_large_image
+    description: "Free Introductory Course on Python and Data Science for Social Scientists"
+    image: images\irises.jpg
   favicon: logo.png # https://icons8.com/icons/set/favicon-graph
   open-graph: true 
   navbar:
@@ -12,23 +16,53 @@ website:
         text: Home
       - href: about.qmd
         text: O kursu
-      - sessions.qmd
-  sidebar:
-    - title: "Sessions"
-      style: "docked"
+      - text: Sessions
+        menu:
+          - href: session_001.ipynb
+            text: "Lesson 1"
+          - href: session_002.ipynb
+            text: "Lesson 2"
+          - href: session_003.ipynb
+            text: "Lesson 3"
+          - href: session_004.ipynb
+            text: "Lesson 4"
+          - href: session_005.ipynb
+            text: "Lesson 5"
+          - href: session_006.ipynb
+            text: "Lesson 6"
+          - href: session_007.ipynb
+            text: "Lesson 7"
+          - href: session_008.ipynb
+            text: "Lesson 8"
+          - href: session_009.ipynb
+            text: "Lesson 9"
+          - href: session_010.ipynb
+            text: "Lesson 10"
+    right: 
+      #- href: "https://quarto.org/"
+        #text: "Quarto Docs"
+      - icon: github
+        href: https://github.com/vukasin-viskovic/idsss
+      #- icon: twitter
+        #href: https://twitter.com/quarto_pub        
+  page-footer:
+    left: "This page was built with ❤️ and [Quarto](https://quarto.org/) by [Vukašin Višković](https://www.linkedin.com/in/vukasin-viskovic/)."
+  #sidebar:
+    #- title: "Sessions"
+      #style: "docked"
       #contents: auto 
-      background: secondary
-      contents:
-        - session_001.ipynb
-        - session_002.ipynb
-        - session_003.ipynb
-        - session_004.ipynb
-        - session_005.ipynb
-        - session_006.ipynb
-        - session_007.ipynb
-        - session_008.ipynb
-        - session_009.ipynb
-        - session_010.ipynb
+      #background: secondary
+      #contents:
+        #- session_001.ipynb
+        #- session_002.ipynb
+        #- session_003.ipynb
+        #- session_004.ipynb
+        #- session_005.ipynb
+        #- session_006.ipynb
+        #- session_007.ipynb
+        #- session_008.ipynb
+        #- session_009.ipynb
+        #- session_010.ipynb
         #- index.qmd
         #- about.qmd
         #- section: "Sessions"
