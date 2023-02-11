@@ -19,3 +19,6 @@ https://quarto.org/docs/reference/projects/websites.html#comments
 Useful:
 - https://quarto.org/docs/output-formats/html-code.html
 - https://quarto.org/docs/websites/website-tools.html
+- https://quarto.org/docs/output-formats/page-layout.html
+- https://quarto.org/docs/output-formats/html-themes.html
+- https://quarto.org/docs/output-formats/html-basics.html

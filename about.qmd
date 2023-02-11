@@ -1,5 +1,8 @@
 ---
 title: "O kursu"
+format: 
+  html:
+    toc-title: Sadržaj
 ---
 
 Pred Vama je **preliminarni plan kursa**. Moguće je da će pojedinačne sesije izgledati nešto drugačije od onoga što je ovde napisano, usled toga što ćemo možda morati da se prilagodimo tempu rada koji odgovara većini.

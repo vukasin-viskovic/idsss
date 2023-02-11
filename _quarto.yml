@@ -39,10 +39,10 @@ website:
           - href: session_010.ipynb
             text: "Lesson 10"
     right: 
-      #- href: "https://quarto.org/"
-        #text: "Quarto Docs"
       - icon: github
         href: https://github.com/vukasin-viskovic/idsss
+      #- href: "https://quarto.org/"
+        #text: "Quarto Docs"
       #- icon: twitter
         #href: https://twitter.com/quarto_pub        
   page-footer:
@@ -73,10 +73,17 @@ website:
 format:
   html:
     theme: 
-      light: flatly
-      dark: darkly
-    css: style.css
+      light: 
+        - flatly
+        - styles.css
+      dark: 
+        - darkly
+        - styles.css
+    css: styles.css
     toc: true
+    toc-depth: 2
+    toc-location: right
+    toc-title: Contents
 
 
 

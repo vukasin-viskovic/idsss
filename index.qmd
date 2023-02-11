@@ -1,5 +1,9 @@
 ---
 title: "Introduction to Data Science for Social Scientists"
+
+format: 
+  html:
+    toc-title: Sadržaj
 ---
 
 Zdravo svima, i dobrodošli!
